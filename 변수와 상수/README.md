@@ -55,7 +55,15 @@ const ( // 상수값 열거형 , () 사용
 iota가 지정된 상수값에 경우엔 0이 할당되고 , 순차적으로 1씩 증가된 값을 할당받게 됩니다.
 ```golang
 
+const ( // iota 사용
+	apple = iota // 0 
+	pizza // 1
+ 	orange // 2
+)
 
+func main(){
+    println(apple,pizza,orange) // 0 1 2
+}
 ```
 
 ## 4. 특이사항
