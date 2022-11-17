@@ -59,5 +59,5 @@ func relation(inputC int , inputD int){
 
 // 논리연산자 함수
 func logical(inputE int , inputF int){
-	
+	// AND , OR , NOT 등을 표한함
 }

@@ -55,3 +55,9 @@ func relation(inputC int , inputD int){
 	println(inputC>inputD)
 }
 ```
+
+## 3. 논리연산자
+AND , OR , NOT 를 표현할 때 사용합니다.
+ex ) && , || ,  ! 
+
+## 4. 
